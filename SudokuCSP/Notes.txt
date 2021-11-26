@@ -1,0 +1,4 @@
+﻿Todo:
+
+-Make backtracking sudoku solver
+-Make logic inference theorem solver to teach us how to play sudoku
