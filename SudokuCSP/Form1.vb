@@ -23,6 +23,21 @@
         Next
 
         'Solve
+        'Psuedo-code
+        'CSP_Solver create instance
+        Dim cspSolver As CSP_Solver = New CSP_Solver(sudokuBoard)
+
+        Dim blnSolved As Boolean = False
+        While (blnSolved = False)
+            'consistency check
+            If cspSolver.IsConsistent() Then
+
+            End If
+            'if not consistent, backtrack
+            'if consistent, apply another variable to a value
+            '  have a heuristic or way of deciding which variable and which value
+            '    this decision should be made in CSP_Solver
+        End While
 
     End Sub
 End Class
